@@ -5,7 +5,7 @@
 
 -module(couchapp_ng_handlers).
 
--include("couch_db.hrl").
+-include_lib("couch/couch_db.hrl").
 
 -export([rewrite_handler/3, proxy_handler/3]).
 

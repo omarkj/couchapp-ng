@@ -6,7 +6,7 @@
 -module(couchapp_ng_routes).
 -behaviour(gen_server).
 
--include("couch_db.hrl").
+-include_lib("couch/couch_db.hrl").
 
 -define(ROUTES, cl_routes).
 
