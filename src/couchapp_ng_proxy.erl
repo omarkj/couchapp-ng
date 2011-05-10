@@ -8,8 +8,8 @@
 
 -export([do_proxy/3]).
 
--include_lib("couch/couch_db.hrl").
--include_lib("ibrowse/ibrowse.hrl").
+-include_lib("couch/include/couch_db.hrl").
+-include_lib("ibrowse/include/ibrowse.hrl").
 
 -define(TIMEOUT, infinity).
 -define(PKT_SIZE, 4096).

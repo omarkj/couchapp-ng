@@ -5,11 +5,6 @@
 
 {erl_opts, [{i, "@COUCHDB_SRC@/couchdb"}, {i, "@COUCHDB_SRC@/ibrowse"}]}.
 
-{deps, [
-    {emonk, ".*", {git, "git://github.com/benoitc/emonk.git", {branch,
-        "master"}}}
-]}.
-
 {sub_dirs, [
     "rel"
 ]}.
